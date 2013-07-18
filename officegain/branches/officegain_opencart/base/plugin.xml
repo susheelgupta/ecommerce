@@ -1,0 +1,92 @@
+<plugin name='base' version='0.1' grailsVersion='2.0.0 &gt; *'>
+  <author>Your name</author>
+  <title>Base Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/base</documentation>
+  <type>BaseGrailsPlugin</type>
+  <resources>
+    <resource>com.officegain.enigma.base.AddressBook</resource>
+    <resource>com.officegain.enigma.base.Administrator</resource>
+    <resource>com.officegain.enigma.base.AdministratorAccess</resource>
+    <resource>com.officegain.enigma.base.AdministratorLog</resource>
+    <resource>com.officegain.enigma.base.AdministratorShortcut</resource>
+    <resource>com.officegain.enigma.base.Banner</resource>
+    <resource>com.officegain.enigma.base.BannerHistory</resource>
+    <resource>com.officegain.enigma.base.Category</resource>
+    <resource>com.officegain.enigma.base.CategoryImage</resource>
+    <resource>com.officegain.enigma.base.Configuration</resource>
+    <resource>com.officegain.enigma.base.ConfigurationGroup</resource>
+    <resource>com.officegain.enigma.base.Counter</resource>
+    <resource>com.officegain.enigma.base.Country</resource>
+    <resource>com.officegain.enigma.base.CreditCard</resource>
+    <resource>com.officegain.enigma.base.Currency</resource>
+    <resource>com.officegain.enigma.base.Customer</resource>
+    <resource>com.officegain.enigma.base.GeoZone</resource>
+    <resource>com.officegain.enigma.base.Manufacturer</resource>
+    <resource>com.officegain.enigma.base.ManufacturerImage</resource>
+    <resource>com.officegain.enigma.base.Module</resource>
+    <resource>com.officegain.enigma.base.Newsletter</resource>
+    <resource>com.officegain.enigma.base.NewsletterLog</resource>
+    <resource>com.officegain.enigma.base.Order</resource>
+    <resource>com.officegain.enigma.base.OrderProduct</resource>
+    <resource>com.officegain.enigma.base.OrderProductDownload</resource>
+    <resource>com.officegain.enigma.base.OrderProductVariant</resource>
+    <resource>com.officegain.enigma.base.OrderStatus</resource>
+    <resource>com.officegain.enigma.base.OrderStatusHistory</resource>
+    <resource>com.officegain.enigma.base.OrderTotal</resource>
+    <resource>com.officegain.enigma.base.OrderTransactionHistory</resource>
+    <resource>com.officegain.enigma.base.OrderTransactionStatus</resource>
+    <resource>com.officegain.enigma.base.Product</resource>
+    <resource>com.officegain.enigma.base.ProductAttribute</resource>
+    <resource>com.officegain.enigma.base.ProductImage</resource>
+    <resource>com.officegain.enigma.base.ProductImageGroup</resource>
+    <resource>com.officegain.enigma.base.ProductNotification</resource>
+    <resource>com.officegain.enigma.base.ProductType</resource>
+    <resource>com.officegain.enigma.base.ProductTypeAssignment</resource>
+    <resource>com.officegain.enigma.base.ProductVariant</resource>
+    <resource>com.officegain.enigma.base.ProductVariantGroup</resource>
+    <resource>com.officegain.enigma.base.ProductVariantValue</resource>
+    <resource>com.officegain.enigma.base.Review</resource>
+    <resource>com.officegain.enigma.base.Role</resource>
+    <resource>com.officegain.enigma.base.Session</resource>
+    <resource>com.officegain.enigma.base.ShippingAvailability</resource>
+    <resource>com.officegain.enigma.base.ShoppingCart</resource>
+    <resource>com.officegain.enigma.base.ShoppingCartCustomVariantValue</resource>
+    <resource>com.officegain.enigma.base.Special</resource>
+    <resource>com.officegain.enigma.base.TaxClass</resource>
+    <resource>com.officegain.enigma.base.TaxRate</resource>
+    <resource>com.officegain.enigma.base.Template</resource>
+    <resource>com.officegain.enigma.base.TemplateBox</resource>
+    <resource>com.officegain.enigma.base.TemplateBoxToPage</resource>
+    <resource>com.officegain.enigma.base.User</resource>
+    <resource>com.officegain.enigma.base.UserRole</resource>
+    <resource>com.officegain.enigma.base.WeightClass</resource>
+    <resource>com.officegain.enigma.base.WeightClassRule</resource>
+    <resource>com.officegain.enigma.base.WhosOnline</resource>
+    <resource>com.officegain.enigma.base.Zone</resource>
+    <resource>com.officegain.enigma.base.ZoneToGeoZone</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <runtime>
+      <plugin group='org.grails.plugins' name='richui' version='0.8' />
+      <plugin group='org.grails.plugins' name='jquery' version='1.7.1' />
+      <plugin group='org.grails.plugins' name='resources' version='1.1.5' />
+      <plugin group='org.grails.plugins' name='jquery-ui' version='1.8.15' />
+      <plugin group='org.grails.plugins' name='hibernate' version='2.0.0' />
+    </runtime>
+    <build>
+      <plugin group='org.grails.plugins' name='tomcat' version='2.0.0' />
+    </build>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

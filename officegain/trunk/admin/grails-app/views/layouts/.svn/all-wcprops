@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/officegain/!svn/ver/275/trunk/admin/grails-app/views/layouts
+END
+login_layout.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/officegain/!svn/ver/276/trunk/admin/grails-app/views/layouts/login_layout.gsp
+END
+main.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/officegain/!svn/ver/279/trunk/admin/grails-app/views/layouts/main.gsp
+END

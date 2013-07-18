@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/officegain/!svn/ver/402/branches/officegain_opencart/website/grails-app/views/account
+END
+register.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/officegain/!svn/ver/408/branches/officegain_opencart/website/grails-app/views/account/register.gsp
+END
+success.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/408/branches/officegain_opencart/website/grails-app/views/account/success.gsp
+END

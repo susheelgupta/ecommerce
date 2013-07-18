@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/website/web-app/WEB-INF/tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/website/web-app/WEB-INF/tld/c.tld
+END
+grails.tld
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/website/web-app/WEB-INF/tld/grails.tld
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/website/web-app/WEB-INF/tld/spring.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/website/web-app/WEB-INF/tld/fmt.tld
+END

@@ -1,0 +1,513 @@
+<%@ page import="com.officegain.enigma.admin.AdminUtil; com.officegain.enigma.base.Product" %>
+<div id="tabs">
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="#tabs-1">Product Details</a></li>
+                <li><a href="#tabs-2">Description</a></li>
+                <li><a href="#tabs-3">Overview</a></li>
+                <li><a href="#tabs-4">Product Pricing</a></li>
+                <li><a href="#tabs-5">Images</a></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<g:form name="productForm">
+<g:hiddenField name="imageIdsArray" id="imageIdsArray" value=""/>
+<g:hiddenField name="imageRemoveArray" id="imageRemoveArray" value=""/>
+<g:hiddenField name="id" id="productId" value="${productInstance.id}"/>
+<div id="tabs-1" style="margin-left:15px">
+<g:if test="${flash.message}">
+    <div class="message" role="status">${flash.message}</div>
+</g:if>
+<g:hasErrors bean="${productInstance}">
+    <ul class="errors" role="alert">
+        <g:eachError bean="${productInstance}" var="error">
+            <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>>
+                <g:message error="${error}"/>
+            </li>
+        </g:eachError>
+    </ul>
+</g:hasErrors>
+<table>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'name', 'error')} required">
+            <label for="name" style="margin-left: 45px;">
+                <g:message code="product.name.label" default="Name"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'internalName', 'error')} required">
+            <label for="internalName" style="margin-left: 32px;">
+                <g:message code="product.internalName.label" default="Internal Name"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'quantity', 'error')} required">
+            <label for="quantity" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.quantity.label" default="Quantity"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div>
+            <g:textField name="name" required="" class="validity" value="${productInstance?.name}"
+                         style="width:180px; margin-left: 45px;"/>
+        </div>
+    </td>
+    <td>
+        <div>
+            <g:textField name="internalName" class="validity" required="" value="${productInstance?.internalName}"
+                         style="width:180px; margin-left: 32px;"/>
+        </div>
+    </td>
+    <td>
+        <div>
+            <g:field type="number" class="validity" name="quantity" required=""
+                     value="${fieldValue(bean: productInstance, field: 'quantity')}"
+                     style="width:180px; margin-right: 12px; margin-left: 24px"/>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'price', 'error')} required">
+            <label for="price" style="margin-left: 45px;">
+                <g:message code="product.price.label" default="Price"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'offerPrice', 'error')} required">
+            <label for="offerPrice" style="margin-left: 32px;">
+                <g:message code="product.offerPrice.label" default="Offer Price"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'keywords', 'error')} ">
+            <label for="keywords" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.keywords.label" default="Keywords"/>
+
+            </label>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div>
+            <g:field type="number" class="validity" name="price" required=""
+                     value="${fieldValue(bean: productInstance, field: 'price')}"
+                     style="width:180px; margin-left: 45px;"/>
+        </div>
+    </td>
+    <td>
+        <div>
+            <g:field type="number" class="validity" name="offerPrice" required=""
+                     value="${fieldValue(bean: productInstance, field: 'offerPrice')}"
+                     style="width:180px; margin-left: 32px;"/>
+        </div>
+    </td>
+    <td>
+        <div>
+            <g:textField name="keywords" value="${productInstance?.keywords}"
+                         style="width:180px; margin-right: 12px;margin-left: 24px"/>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'tags', 'error')} ">
+            <label for="tags" style="margin-left: 45px;">
+                <g:message code="product.tags.label" default="Tags"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'url', 'error')} ">
+            <label for="url" style="margin-left: 32px;">
+                <g:message code="product.url.label" default="Url"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'deliveryTime', 'error')} ">
+            <label for="deliveryTime" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.deliveryTime.label" default="Delivery Time"/>
+            </label>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <g:textField name="tags" value="${productInstance?.tags}" style="width:180px; margin-left: 45px;"/>
+    </td>
+    <td>
+        <g:textField name="url" value="${productInstance?.url}" style="width:180px; margin-left: 32px;"/>
+    </td>
+    <td>
+        <g:textField name="deliveryTime" value="${productInstance?.deliveryTime}"
+                     style="width:180px; margin-right: 12px;margin-left: 24px"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'model', 'error')} ">
+            <label for="model" style="margin-left: 45px;">
+                <g:message code="product.model.label" default="Model"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'weight', 'error')} ">
+            <label for="weight" style="margin-left: 32px;">
+                <g:message code="product.weight.label" default="Weight"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'warranty', 'error')} ">
+            <label for="warranty" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.warranty.label" default="Warranty"/>
+            </label>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <g:textField name="model" value="${productInstance?.model}" style="width:180px; margin-left: 45px;"/>
+    </td>
+    <td>
+        <g:field type="number" name="weight" value="${fieldValue(bean: productInstance, field: 'weight')}"
+                 style="width:180px; margin-left: 32px;"/>
+    </td>
+    <td>
+        <g:textField name="warranty" value="${productInstance?.warranty}"
+                     style="width:180px; margin-right: 12px;margin-left: 24px"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'metaTitle', 'error')} ">
+            <label for="metaTitle" style="margin-left: 45px;">
+                <g:message code="product.metaTitle.label" default="Meta Title"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'metaKeywords', 'error')} ">
+            <label for="metaKeywords" style="margin-left: 32px;">
+                <g:message code="product.metaKeywords.label" default="Meta Keywords"/>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'metaDescription', 'error')} ">
+            <label for="metaDescription" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.metaDescription.label" default="Meta Description"/>
+            </label>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <g:textArea rows="1" cols="1" name="metaTitle" value="${productInstance?.metaTitle}"
+                    style="width:180px; margin-left: 45px; height:22px;"/>
+    </td>
+    <td>
+        <g:textArea rows="1" cols="1" name="metaKeywords" value="${productInstance?.metaKeywords}"
+                    style="width:180px; margin-left: 32px; height:22px;"/>
+    <td>
+        <g:textArea rows="1" cols="1" name="metaDescription" value="${productInstance?.metaDescription}"
+                    style="width:180px; height: 22px; margin-right: 12px;margin-left: 24px"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'manufacturer', 'error')} required">
+            <label for="manufacturer" style="margin-left: 45px;">
+                <g:message code="product.manufacturer.label" default="Manufacturer"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'category', 'error')} required">
+            <label for="category" style="margin-left:32px">
+                <g:message code="product.category.label" default="Category"/>
+                <span class="required-indicator">*</span>
+            </label>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'codOrder', 'error')} ">
+            <label for="codOrder" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.codOrder.label" default="Code Order"/>
+            </label>
+            <g:checkBox name="codOrder" value="${productInstance?.codOrder}"/>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <g:select id="manufacturer" name="manufacturer.id"
+                  noSelection="${['null':'-Choose Manufacturer-']}"
+                  from="${com.officegain.enigma.base.Manufacturer.list()}"
+                  optionKey="id" optionValue="name" value="${productInstance?.manufacturer?.id}"
+                  class="many-to-one" style="width: 196px; margin-left:45px;"/>
+    </td>
+    <td>
+        <g:select id="category" name="category.id"
+                  from="${com.officegain.enigma.base.Category.list()}"
+                  noSelection="${['null':'-Choose Category-']}" optionKey="id" optionValue="path"
+                  value="${productInstance?.category?.id}" class="many-to-one"
+                  style="width:196px; margin-left: 32px; margin-right: 5px;"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'available', 'error')} ">
+            <label for="available" style="margin-left: 45px;">
+                <g:message code="product.available.label" default="Available"/>
+            </label>
+            <g:checkBox name="available" value="${productInstance?.available}"/>
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'stockStatus', 'error')} ">
+            <label for="stockStatus" style="margin-left: 32px;">
+                <g:message code="product.stockStatus.label" default="Stock Status"/>
+            </label>
+            <g:checkBox name="stockStatus" value="${productInstance?.stockStatus}"/>
+
+        </div>
+    </td>
+    <td>
+        <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'dropShipment', 'error')} ">
+            <label for="dropShipment" style="margin-right: 12px;margin-left: 24px">
+                <g:message code="product.dropShipment.label" default="Drop Shipment"/>
+            </label>
+            <g:checkBox name="dropShipment" value="${productInstance?.dropShipment}"/>
+
+        </div>
+    </td>
+</tr>
+</table>
+</div>
+
+<div id="tabs-2" style="margin-left: 105px;">
+    <p>Description</p>
+
+    <p><richui:richTextEditor name="description" value="${productInstance?.description}" width="200"
+                              height="50"/></p>
+
+    <p>Features</p>
+
+    <p><richui:richTextEditor name="features" value="${productInstance?.features}" width="200"
+                              height="50"/></p>
+</div>
+
+<div id="tabs-3" style="margin-left: 105px;">
+    <p>Overview</p>
+
+    <p><richui:richTextEditor name="overview" value="${productInstance?.overview}" width="200"
+                              height="50"/></p>
+
+    <p>Specification</p>
+
+    <p><richui:richTextEditor name="specifications" value="${productInstance?.specifications}" width="500"
+                              height="50"/></p>
+</div>
+
+<div id="tabs-4">
+    <table style="color:#666666">
+        <tr>
+            <td>
+                <th style="width: 340px;">Customer</th>
+                <th>Price</th>
+            </td>
+        </tr>
+    </table>
+    <table id="copy">
+        <%
+            if (customerPricings.size() == 0) {
+        %>
+        <tr>
+            <td>
+                <g:select class="checkDuplicate" name="customer.id" noSelection="${['0':'-Choose Customer-']}"
+                          from="${com.officegain.enigma.base.Customer.list()}" optionKey="id" optionValue="firstName"
+                          value="" style="margin-left: 18px;"/>
+            </td>
+            <td>
+                <g:textField name="customerPrice" class="newProductPrice" value=""/>
+                <g:hiddenField name="cpid" value="na"/>
+            </td>
+            <td style="text-align: right;">
+                <input type="button" name="RemoveButton" value="Remove" class="removePrice"/>
+            </td>
+        </tr>
+        <%
+            } else {
+                for (customerPricing in customerPricings) {
+        %>
+        <tr>
+            <td>
+                <g:select class="checkDuplicate" name="customer.id" noSelection="${['null':'-Choose Customer-']}"
+                          from="${com.officegain.enigma.base.Customer.list()}" optionKey="id" optionValue="firstName"
+                          value="${customerPricing.customer.id}" style="margin-left: 18px;"/>
+            </td>
+            <td>
+                <g:textField name="customerPrice" class="newProductPrice" value="${customerPricing.price}"/>
+                <g:hiddenField name="cpid" value="${customerPricing.id}"/>
+            </td>
+            <td style="text-align: right;">
+                <input type="button" name="RemoveButton" value="Remove" class="removePrice"/>
+            </td>
+        </tr>
+        <% }
+        } %>
+        <tr class="hiddenElement">
+            <td>
+                <g:select class="checkDuplicate" name="customer.id" noSelection="${['null':'-Choose Customer-']}"
+                          from="${com.officegain.enigma.base.Customer.list()}" optionKey="id" optionValue="firstName"
+                          value="" style="margin-left: 18px;"/>
+            </td>
+            <td>
+                <g:textField name="customerPrice" class="newProductPrice hidden" value=""/>
+                <g:hiddenField name="cpid" value="na"/>
+            </td>
+            <td style="text-align: right;">
+                <input type="button" name="RemoveButton" value="Remove" class="removePrice"/>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <input type="button" id="buttonAdd" value="Add" style="margin-left: 18px;">
+            </td>
+        </tr>
+    </table>
+</div>
+</g:form>
+<div id="tabs-5" style="margin-left: 15px;margin-right: 15px">
+    <table style="color:#666666">
+        <tr>
+            <th style="width:300px;">Product Images</th>
+            <th style="padding-left: 38px;">Default?</th>
+            <th style="width: 200px; padding-right: 120px;">Preview</th>
+        </tr>
+    </table>
+    <%
+        if (productInstance.productImages.size() == 0) {
+    %>
+    <form id="imageForm1" class="clonedInput" name="uploadImageForm"
+          action="/admin/product/uploadImage" method="POST"
+          enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td style="align:left; width:40%"><input type="file" name="image"/></td>
+                <td style="text-align:left; vertical-align: middle; width:20%;padding-left: 28px">
+                    Default? <input type="checkbox" name="isDefault" value="true" checked="checked "/>
+
+                <td style="text-align:left; vertical-align: middle; width:25%"/> </td>
+
+                <td><div id="previewDiv" style="margin-right: 145px">
+                    <input type="hidden" class="productImageClass" name="productImageId">
+                </div>
+                </td>
+                <td>
+
+                    <input type="button" name="imageRemoveButton" value="Remove Image"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <%
+        } else {
+            def i = 0;
+            for (productImagesInstance in productInstance.productImages) {
+                i++;
+                def formId = "imageForm" + i;
+    %>
+
+    <form id="${formId}" class="clonedInput" name="uploadImageForm"
+          action="/admin/product/uploadImage" method="POST"
+          enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td style="align:left; width:40%"><input type="file" name="image"/></td>
+
+                <td style="text-align:left; vertical-align: middle; width:20%;padding-left: 28px">
+                    <%
+                            if (productImagesInstance.isDefault) {
+                    %>
+
+                    Default? <input type="checkbox" name="isDefault" value="true" checked="checked"/>
+                    <%
+                        } else {
+                    %>
+                    Default? <input type="checkbox" name="isDefault" value="true"/>
+
+                    <%
+                            }
+                    %>
+
+                </td>
+
+                <td style="text-align:left; vertical-align: middle; width:25%">
+                <td><div id="previewDiv" style="margin-right: 145px">
+                    <input type="hidden" class="productImageClass" name="productImageId"
+                           value="${productImagesInstance.id}">
+                    <img src="${AdminUtil.productImageUrl(productImagesInstance)}" alt="productImage" width="30"
+                         height="30">
+                </div>
+                </td>
+            </td>
+                <td>
+
+                    <input type="button" name="imageRemoveButton" value="Remove Image"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <%
+            }
+        }
+    %>
+
+    <table>
+        <tr>
+            <td>
+                <input type="button" id="btnAdd" value="Add More Image">
+            </td>
+        </tr>
+    </table>
+</div>
+<fieldset class="buttons">
+    <g:actionSubmit id="update" class="save" action="update"
+                    value="${message(code: 'default.button.update.label', default: 'Update')}"
+                    style="margin-left: 375px"/>
+    <g:actionSubmit id="delete" class="delete" action="delete"
+                    value="${message(code: 'default.button.delete.label', default: 'Delete')}"/>
+
+</fieldset>
+
+<div id="dialog-confirm" title="Delete Product" style="display: none">
+    <p><span class="ui-icon ui-icon-alert"
+             style="float:left; margin:0 7px 20px 0;"></span>'${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}'
+    </p>
+</div>
+
+

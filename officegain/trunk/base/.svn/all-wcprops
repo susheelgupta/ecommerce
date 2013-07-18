@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/officegain/!svn/ver/268/trunk/base
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/officegain/!svn/ver/92/trunk/base/application.properties
+END
+base-grailsPlugins.iml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/officegain/!svn/ver/92/trunk/base/base-grailsPlugins.iml
+END
+base.iml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/officegain/!svn/ver/92/trunk/base/base.iml
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/officegain/!svn/ver/228/trunk/base/plugin.xml
+END
+BaseGrailsPlugin.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/officegain/!svn/ver/92/trunk/base/BaseGrailsPlugin.groovy
+END

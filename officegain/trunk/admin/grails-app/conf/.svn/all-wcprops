@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/officegain/!svn/ver/275/trunk/admin/grails-app/conf
+END
+ApplicationResources.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/officegain/!svn/ver/73/trunk/admin/grails-app/conf/ApplicationResources.groovy
+END
+DataSource.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/officegain/!svn/ver/74/trunk/admin/grails-app/conf/DataSource.groovy
+END
+UrlMappings.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/officegain/!svn/ver/275/trunk/admin/grails-app/conf/UrlMappings.groovy
+END
+Config.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/officegain/!svn/ver/275/trunk/admin/grails-app/conf/Config.groovy
+END
+BuildConfig.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/officegain/!svn/ver/95/trunk/admin/grails-app/conf/BuildConfig.groovy
+END
+BootStrap.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/officegain/!svn/ver/73/trunk/admin/grails-app/conf/BootStrap.groovy
+END

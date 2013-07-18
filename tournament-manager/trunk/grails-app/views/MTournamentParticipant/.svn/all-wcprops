@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant
+END
+edit.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant/edit.gsp
+END
+create.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant/create.gsp
+END
+show.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant/show.gsp
+END
+list.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant/list.gsp
+END
+_form.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tournament-manager/!svn/ver/27/trunk/grails-app/views/MTournamentParticipant/_form.gsp
+END

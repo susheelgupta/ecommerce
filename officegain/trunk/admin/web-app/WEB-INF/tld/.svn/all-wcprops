@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/officegain/!svn/ver/74/trunk/admin/web-app/WEB-INF/tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/officegain/!svn/ver/74/trunk/admin/web-app/WEB-INF/tld/c.tld
+END
+grails.tld
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/officegain/!svn/ver/73/trunk/admin/web-app/WEB-INF/tld/grails.tld
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/officegain/!svn/ver/73/trunk/admin/web-app/WEB-INF/tld/spring.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/officegain/!svn/ver/74/trunk/admin/web-app/WEB-INF/tld/fmt.tld
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/officegain/!svn/ver/275/trunk/admin
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/officegain/!svn/ver/266/trunk/admin/application.properties
+END
+admin-grailsPlugins.iml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/officegain/!svn/ver/242/trunk/admin/admin-grailsPlugins.iml
+END
+admin.iml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/officegain/!svn/ver/242/trunk/admin/admin.iml
+END

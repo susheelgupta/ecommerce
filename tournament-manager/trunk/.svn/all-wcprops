@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tournament-manager/!svn/ver/41/trunk
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tournament-manager/!svn/ver/56/trunk/application.properties
+END
+tournamentmanager-grailsPlugins.iml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tournament-manager/!svn/ver/2/trunk/tournamentmanager-grailsPlugins.iml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tournament-manager/!svn/ver/2/trunk/.project
+END
+tournamentmanager.iml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tournament-manager/!svn/ver/2/trunk/tournamentmanager.iml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tournament-manager/!svn/ver/2/trunk/.classpath
+END

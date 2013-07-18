@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/362/branches/officegain_opencart/base/grails-app/views/customerIpBlacklist
+END
+create.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/362/branches/officegain_opencart/base/grails-app/views/customerIpBlacklist/create.gsp
+END
+show.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/officegain/!svn/ver/362/branches/officegain_opencart/base/grails-app/views/customerIpBlacklist/show.gsp
+END
+list.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/officegain/!svn/ver/362/branches/officegain_opencart/base/grails-app/views/customerIpBlacklist/list.gsp
+END

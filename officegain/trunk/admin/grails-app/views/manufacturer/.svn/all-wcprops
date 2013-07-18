@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/officegain/!svn/ver/237/trunk/admin/grails-app/views/manufacturer
+END
+create.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/officegain/!svn/ver/210/trunk/admin/grails-app/views/manufacturer/create.gsp
+END
+show.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/officegain/!svn/ver/210/trunk/admin/grails-app/views/manufacturer/show.gsp
+END
+list.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/officegain/!svn/ver/212/trunk/admin/grails-app/views/manufacturer/list.gsp
+END
+_createForm.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/officegain/!svn/ver/237/trunk/admin/grails-app/views/manufacturer/_createForm.gsp
+END
+_showForm.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/officegain/!svn/ver/234/trunk/admin/grails-app/views/manufacturer/_showForm.gsp
+END

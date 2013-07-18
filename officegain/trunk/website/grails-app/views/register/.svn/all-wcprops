@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/officegain/!svn/ver/58/trunk/website/grails-app/views/register
+END
+resetPassword.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/officegain/!svn/ver/56/trunk/website/grails-app/views/register/resetPassword.gsp
+END
+forgotPassword.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/officegain/!svn/ver/56/trunk/website/grails-app/views/register/forgotPassword.gsp
+END

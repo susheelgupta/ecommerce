@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/officegain/!svn/ver/271/trunk/website
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/officegain/!svn/ver/166/trunk/website/application.properties
+END
+website.iml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/officegain/!svn/ver/93/trunk/website/website.iml
+END
+website-grailsPlugins.iml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/officegain/!svn/ver/93/trunk/website/website-grailsPlugins.iml
+END

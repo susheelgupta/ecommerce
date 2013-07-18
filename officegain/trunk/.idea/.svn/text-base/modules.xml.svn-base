@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/admin-grailsPlugins.iml" filepath="$PROJECT_DIR$/admin/admin-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base-grailsPlugins.iml" filepath="$PROJECT_DIR$/base/base-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erp/erp.iml" filepath="$PROJECT_DIR$/erp/erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website/website.iml" filepath="$PROJECT_DIR$/website/website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website/website-grailsPlugins.iml" filepath="$PROJECT_DIR$/website/website-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+

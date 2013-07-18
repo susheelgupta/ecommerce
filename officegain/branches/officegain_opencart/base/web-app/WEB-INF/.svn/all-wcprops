@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/base/web-app/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/base/web-app/WEB-INF/applicationContext.xml
+END
+sitemesh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/base/web-app/WEB-INF/sitemesh.xml
+END

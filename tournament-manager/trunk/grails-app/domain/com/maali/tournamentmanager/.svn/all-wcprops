@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tournament-manager/!svn/ver/41/trunk/grails-app/domain/com/maali/tournamentmanager
+END
+MLeague.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tournament-manager/!svn/ver/37/trunk/grails-app/domain/com/maali/tournamentmanager/MLeague.groovy
+END
+MPaymentHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tournament-manager/!svn/ver/8/trunk/grails-app/domain/com/maali/tournamentmanager/MPaymentHistory.groovy
+END
+MUser.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tournament-manager/!svn/ver/16/trunk/grails-app/domain/com/maali/tournamentmanager/MUser.groovy
+END
+MMatch.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tournament-manager/!svn/ver/37/trunk/grails-app/domain/com/maali/tournamentmanager/MMatch.groovy
+END
+MUserDues.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tournament-manager/!svn/ver/12/trunk/grails-app/domain/com/maali/tournamentmanager/MUserDues.groovy
+END
+Role.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tournament-manager/!svn/ver/2/trunk/grails-app/domain/com/maali/tournamentmanager/Role.groovy
+END
+MTournament.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tournament-manager/!svn/ver/41/trunk/grails-app/domain/com/maali/tournamentmanager/MTournament.groovy
+END
+MTournamentResult.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tournament-manager/!svn/ver/19/trunk/grails-app/domain/com/maali/tournamentmanager/MTournamentResult.groovy
+END
+MLeagueMembership.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tournament-manager/!svn/ver/19/trunk/grails-app/domain/com/maali/tournamentmanager/MLeagueMembership.groovy
+END
+MInstitutionManagement.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tournament-manager/!svn/ver/29/trunk/grails-app/domain/com/maali/tournamentmanager/MInstitutionManagement.groovy
+END
+MInstitution.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tournament-manager/!svn/ver/48/trunk/grails-app/domain/com/maali/tournamentmanager/MInstitution.groovy
+END
+User.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tournament-manager/!svn/ver/16/trunk/grails-app/domain/com/maali/tournamentmanager/User.groovy
+END
+MTeam.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tournament-manager/!svn/ver/37/trunk/grails-app/domain/com/maali/tournamentmanager/MTeam.groovy
+END
+MSport.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tournament-manager/!svn/ver/61/trunk/grails-app/domain/com/maali/tournamentmanager/MSport.groovy
+END
+UserRole.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tournament-manager/!svn/ver/2/trunk/grails-app/domain/com/maali/tournamentmanager/UserRole.groovy
+END
+MInstitutionMembership.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tournament-manager/!svn/ver/29/trunk/grails-app/domain/com/maali/tournamentmanager/MInstitutionMembership.groovy
+END
+MTeamMembership.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tournament-manager/!svn/ver/8/trunk/grails-app/domain/com/maali/tournamentmanager/MTeamMembership.groovy
+END
+MLeagueManagement.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tournament-manager/!svn/ver/19/trunk/grails-app/domain/com/maali/tournamentmanager/MLeagueManagement.groovy
+END
+MMembershipDetails.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tournament-manager/!svn/ver/19/trunk/grails-app/domain/com/maali/tournamentmanager/MMembershipDetails.groovy
+END
+MTournamentParticipant.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tournament-manager/!svn/ver/12/trunk/grails-app/domain/com/maali/tournamentmanager/MTournamentParticipant.groovy
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/officegain/!svn/ver/377/branches/officegain_opencart/base/grails-app/views/attributeGroup
+END
+create.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/officegain/!svn/ver/359/branches/officegain_opencart/base/grails-app/views/attributeGroup/create.gsp
+END
+show.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/officegain/!svn/ver/359/branches/officegain_opencart/base/grails-app/views/attributeGroup/show.gsp
+END
+list.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/officegain/!svn/ver/377/branches/officegain_opencart/base/grails-app/views/attributeGroup/list.gsp
+END

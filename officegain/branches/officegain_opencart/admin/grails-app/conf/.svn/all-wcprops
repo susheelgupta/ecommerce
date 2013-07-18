@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/officegain/!svn/ver/292/branches/officegain_opencart/admin/grails-app/conf
+END
+ApplicationResources.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/admin/grails-app/conf/ApplicationResources.groovy
+END
+DataSource.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/officegain/!svn/ver/285/branches/officegain_opencart/admin/grails-app/conf/DataSource.groovy
+END
+UrlMappings.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/280/branches/officegain_opencart/admin/grails-app/conf/UrlMappings.groovy
+END
+Config.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/officegain/!svn/ver/292/branches/officegain_opencart/admin/grails-app/conf/Config.groovy
+END
+BuildConfig.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/274/branches/officegain_opencart/admin/grails-app/conf/BuildConfig.groovy
+END
+BootStrap.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/officegain/!svn/ver/291/branches/officegain_opencart/admin/grails-app/conf/BootStrap.groovy
+END

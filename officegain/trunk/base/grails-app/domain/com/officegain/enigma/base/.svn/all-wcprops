@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/officegain/!svn/ver/268/trunk/base/grails-app/domain/com/officegain/enigma/base
+END
+ProductVariantValue.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductVariantValue.groovy
+END
+TemplateBoxToPage.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/TemplateBoxToPage.groovy
+END
+Newsletter.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Newsletter.groovy
+END
+Special.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Special.groovy
+END
+Review.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/268/trunk/base/grails-app/domain/com/officegain/enigma/base/Review.groovy
+END
+CustomerProductPrice.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/officegain/!svn/ver/229/trunk/base/grails-app/domain/com/officegain/enigma/base/CustomerProductPrice.groovy
+END
+AdministratorLog.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/AdministratorLog.groovy
+END
+ProductVariant.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductVariant.groovy
+END
+Session.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Session.groovy
+END
+Country.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/102/trunk/base/grails-app/domain/com/officegain/enigma/base/Country.groovy
+END
+ZoneToGeoZone.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ZoneToGeoZone.groovy
+END
+OrderTotal.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/110/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderTotal.groovy
+END
+OrderStatusHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderStatusHistory.groovy
+END
+AdministratorShortcut.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/AdministratorShortcut.groovy
+END
+ProductImageGroup.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductImageGroup.groovy
+END
+TemplateBox.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/TemplateBox.groovy
+END
+Product.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/241/trunk/base/grails-app/domain/com/officegain/enigma/base/Product.groovy
+END
+Order.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/officegain/!svn/ver/102/trunk/base/grails-app/domain/com/officegain/enigma/base/Order.groovy
+END
+ProductAttribute.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductAttribute.groovy
+END
+TaxRate.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/TaxRate.groovy
+END
+ManufacturerImage.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/officegain/!svn/ver/206/trunk/base/grails-app/domain/com/officegain/enigma/base/ManufacturerImage.groovy
+END
+OrderProductDownload.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderProductDownload.groovy
+END
+CreditCard.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/CreditCard.groovy
+END
+ShippingAvailability.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ShippingAvailability.groovy
+END
+ConfigurationGroup.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ConfigurationGroup.groovy
+END
+BannerHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/BannerHistory.groovy
+END
+OrderTransactionHistory.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderTransactionHistory.groovy
+END
+OrderProductVariant.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderProductVariant.groovy
+END
+OrderTransactionStatus.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderTransactionStatus.groovy
+END
+UserRole.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/UserRole.groovy
+END
+Category.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/officegain/!svn/ver/207/trunk/base/grails-app/domain/com/officegain/enigma/base/Category.groovy
+END
+GeoZone.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/GeoZone.groovy
+END
+WeightClassRule.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/WeightClassRule.groovy
+END
+Counter.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Counter.groovy
+END
+Template.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Template.groovy
+END
+ProductNotification.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductNotification.groovy
+END
+Configuration.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Configuration.groovy
+END
+ProductTypeAssignment.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductTypeAssignment.groovy
+END
+Role.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Role.groovy
+END
+AdministratorAccess.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/AdministratorAccess.groovy
+END
+Currency.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Currency.groovy
+END
+Manufacturer.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/206/trunk/base/grails-app/domain/com/officegain/enigma/base/Manufacturer.groovy
+END
+Administrator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Administrator.groovy
+END
+TaxClass.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/TaxClass.groovy
+END
+Banner.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Banner.groovy
+END
+ProductImage.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/135/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductImage.groovy
+END
+Module.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Module.groovy
+END
+Zone.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/Zone.groovy
+END
+NewsletterLog.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/NewsletterLog.groovy
+END
+User.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/User.groovy
+END
+ProductVariantGroup.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductVariantGroup.groovy
+END
+ProductType.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ProductType.groovy
+END
+ShoppingCart.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/102/trunk/base/grails-app/domain/com/officegain/enigma/base/ShoppingCart.groovy
+END
+WhosOnline.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/WhosOnline.groovy
+END
+ShoppingCartCustomVariantValue.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/ShoppingCartCustomVariantValue.groovy
+END
+OrderProduct.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/officegain/!svn/ver/102/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderProduct.groovy
+END
+WeightClass.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/WeightClass.groovy
+END
+OrderStatus.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/officegain/!svn/ver/92/trunk/base/grails-app/domain/com/officegain/enigma/base/OrderStatus.groovy
+END
+Customer.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/officegain/!svn/ver/105/trunk/base/grails-app/domain/com/officegain/enigma/base/Customer.groovy
+END
+AddressBook.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/officegain/!svn/ver/117/trunk/base/grails-app/domain/com/officegain/enigma/base/AddressBook.groovy
+END
+CategoryImage.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/officegain/!svn/ver/207/trunk/base/grails-app/domain/com/officegain/enigma/base/CategoryImage.groovy
+END

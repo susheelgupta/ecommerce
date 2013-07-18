@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/officegain/!svn/ver/160/trunk/website/grails-app/views/account
+END
+index.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/officegain/!svn/ver/110/trunk/website/grails-app/views/account/index.gsp
+END
+address.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/officegain/!svn/ver/103/trunk/website/grails-app/views/account/address.gsp
+END
+orders.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/officegain/!svn/ver/160/trunk/website/grails-app/views/account/orders.gsp
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/officegain/!svn/ver/74/trunk/admin/web-app/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/officegain/!svn/ver/73/trunk/admin/web-app/WEB-INF/applicationContext.xml
+END
+sitemesh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/officegain/!svn/ver/73/trunk/admin/web-app/WEB-INF/sitemesh.xml
+END

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="wrapper1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../grails-oauth-scribe-master/grails-oauth-scribe-master/wrapper/grails-wrapper-runtime-2.2.0.RC4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../grails-oauth-scribe-master/grails-oauth-scribe-master/wrapper/springloaded-core-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
